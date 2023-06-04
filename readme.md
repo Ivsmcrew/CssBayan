@@ -1,4 +1,6 @@
-# CODEJAM. CSS-BAYAN
+# CSS-BAYAN
+
+This is css-bayan. The main difficulty is storing the state of the card. Javascript is not allowed
 <br/>
 
 * ## [Link to task page](https://github.com/DrDiman/CSS-Bayan-task)
