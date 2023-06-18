@@ -1,5 +1,7 @@
 # CSS-BAYAN
 
+!Исправь ховер транзишн проперти. Нужно менять высоту не контейнера картинки-мема, а высоту самой картинки-мема, контейнер будет подстраивать высоту сам
+
 This is css-bayan. The main difficulty is storing the state of the card. Javascript is not allowed
 <br/>
 
