@@ -1,13 +1,6 @@
-# CSS-BAYAN
+## CSS-BAYAN 
 
-!Исправь ховер транзишн проперти. Нужно менять высоту не контейнера картинки-мема, а высоту самой картинки-мема, контейнер будет подстраивать высоту сам
-
-This is css-bayan. The main difficulty is storing the state of the card. Javascript is not allowed
-<br/>
-
-* ## [Link to task page](https://github.com/DrDiman/CSS-Bayan-task)
-* ## [Link to finished task](https://ivsmcrew.github.io/cssBayan/cssBayan/index.html)
-<br/>
+This is "css-bayan", the mobile-adaptive list of memes. The main difficulty is state storing of cards. Javascript is not allowed!
 
 <details><summary>Functional requirements(breafly):</summary>
 <p>
@@ -36,3 +29,14 @@ This is css-bayan. The main difficulty is storing the state of the card. Javascr
 
 </p>
 </details> </div>
+
+This project gave me experience at the following points: 
+
+- storage of a state without JS (only checkbox state)
+- layout design working
+- adaptive design media queries
+- handling with svg
+- deploying on the GitHub
+
+<sub> *Screenshot of the landing:* </sub>
+![Screenshot of the page](cssBayan/images/css-bayan.PNG)
