@@ -109,45 +109,50 @@ article.mem{
 label:active{
     filter: contrast(120%);
 }
-    article header.memHeader{
-        padding: 0.3rem 1rem;
-        border: 0.2rem solid var(--border-color);
-        background-color: var(--add-color);
-    }
-        article header.memHeader{
-            display:flex;
-            align-items: center;
-        }
-            article header.memHeader img{
-            margin-left: auto;
-            }
-    article figure{
-        width:0;
-        height:0;
-        margin: 0 auto;
-        padding-top: 1rem;
+article .memHeader{
+    padding: 0.3rem 1rem;
+    border: 0.2rem solid var(--border-color);
+    background-color: var(--add-color);
+}
+article .memHeader{
+    display:flex;
+    align-items: center;
+}
+article .memHeader img{
+    margin-left: auto;
+}
 
-        transition-property: width, height;
-        transition-duration: 0.3s, 0.3s;
-    }    
+article figure{
+    display: flex;
+}
 
-    article input{
-        -webkit-appearance: none;
-        appearance: none;
-        height: 0;
-        width: 0
-    }
-    article input:checked ~ label>figure{
-        width:50%;
-        height:100%;
-    }
-    article input:checked ~ label>header{
-        background-color: var(--border-color);
-        color: var(--base-color);
-    }
-    article input:checked + label>header>img.opener{
-        transform: rotate(45deg);
-    }
+article figure img{
+    width:0;
+    height:0;
+    margin: 0 auto;
+    padding-top: 1rem;
+
+    transition-property: width, height;
+    transition-duration: 0.3s, 0.3s;
+}    
+
+article input{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0;
+    width: 0
+}
+article input:checked ~ label>figure>img{
+    width:50%;
+    height:100%;
+}
+article input:checked ~ label>header{
+    background-color: var(--border-color);
+    color: var(--base-color);
+}
+article input:checked + label>header>img.opener{
+    transform: rotate(45deg);
+}
     
 
 footer{
@@ -197,7 +202,7 @@ footer ul a img{
     label:hover {
         color: var(--base-color);
     }
-    label:hover > figure{
+    label:hover > figure > img{
         width:50%;
         height:100%;
     }
@@ -238,7 +243,7 @@ footer ul a img{
         margin-bottom: 0.5em;
     }
 
-    article input:checked ~ label>figure{
+    article input:checked ~ label>figure>img{
         width:70%;
         height:100%;
     }
@@ -280,7 +285,7 @@ footer ul a img{
         margin-bottom: 0.5em;
     }
 
-    article input:checked ~ label>figure{
+    article input:checked ~ label>figure>img{
         width:80%;
         height:100%;
     }
